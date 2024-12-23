@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+
+        <label for="name">Name:</label>
+        <br/>
+        <input type="text" name="name" id="name">
+        <br/>
+        
+        <label for="email">Email:</label>
+        <br/>
+        <input type="text" name="email" id="email">
+        <br/>
+
+        <label for="phone">Phone no:</label>
+        <br/>
+        <input type="tel" name="phone" id="phone">
+        <br/>
+
+        <label for="resume">Resume:</label>
+        <br>
+        <input type="file" name="reasme" id="resume">
+        <br>
+
+        <label for="counter">Experience(years):</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <fieldset>
+            <legend>skills</legend>
+
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" name="checkbox2" id="checkbox2">
+
+            <label for="checkbox3">JavaScript</label>
+            <input type="checkbox" name="checkbox3" id="checkbox3">
+        </fieldset>
+        <br>
+
+        <label for="EducationType">Highest Education</label>
+        <br>
+        <select name="EducationType" id="EducationType">
+            <option value="high school">High School</option>
+            <option value="masters">M.A</option>
+            <option value="web dev">Web Dev</option>
+            <option value="masters">Masters in computer Science</option>
+        </select>
+        <br>
+
+        <fieldset>
+            <legend>Availability</legend>
+
+            <label for="radio">Full Time</label>
+            <input type="radio" name="Availability" id="radio">
+
+            <label for="radio2">Part Time</label>
+            <input type="radio" name="Availability" id="radio2">
+
+        </fieldset>
+
+        <label for="comments">Additional Comments:</label> 
+        <br>
+        <textarea name="comments" id="comments" cols="20" rows="10"></textarea>
+         <button>Submit Application</button>
+
+    </form>
+</body>
+</html>
