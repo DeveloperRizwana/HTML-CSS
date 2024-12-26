@@ -1,21 +1,24 @@
-* {
-
-    font-family: "Times New Roman";
+div {
+    height: 350px;
+    width: 110px;
+    border-style: solid;
+    background-color: black;
 }
-p {
-    text-align: center;
+#div1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
 }
-h1 {
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: blue wavy underline;
+#div2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
 }
-a {
-    text-decoration: none;
-}
-#outer {
-    font-size: 25px;
-}
-#inner {
-    font-size: 10px;
+#div3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
 }
