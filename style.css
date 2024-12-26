@@ -9,16 +9,19 @@ div {
     width: 100px;
     border-radius: 50%;
     background-color: red;
+    padding-right: 5px;
 }
 #div2 {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: yellow;
+    padding-right: 5px;
 }
 #div3 {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: green;
+    padding-right: 5px;
 }
