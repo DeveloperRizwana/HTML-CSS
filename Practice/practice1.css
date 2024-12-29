@@ -1,0 +1,43 @@
+* {
+    margin: 5px;
+    /* padding: 4px; */
+    align-items: center;
+    text-align: center;
+}
+#div1 {
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+#div2 {
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+#div3 {
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+#div4 {
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+}
+#div5 {
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+}
+.box{
+    height: 50px;
+    width: 40px;
+    font-size: 30px;
+    background-color: brown;
+    text-align: center;
+}
