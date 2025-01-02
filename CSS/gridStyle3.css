@@ -4,28 +4,40 @@
 }
 .container {
     height: 400px;
-    width: 50%;
+    width: 80%;
     background-color: rgb(143, 50, 65);
     border: 5px solid rgb(134, 2, 24);
     padding: 3rem;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    place-content: center;
+    grid-template-rows: repeat(3,1fr);
 }
 .box {
-    height: 150px;
-    width: 300px;
+    height: 100px;
+    /* width: 150px; */
+    font-size: 2rem;
+    color: aliceblue;
     background-color: rgb(134, 2, 24);
     border: 2px solid pink;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.three, .four {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
   .item1 {
     height: 200px;
     width: 400px;
-    background-color: rgb(74 102 112 / 70%);
+    background-color: rgba(49, 113, 138, 0.7);
     border: 5px solid rgb(74 102 112 / 100%);
     border-radius: 8px;
     grid-column: 1 / 4;
@@ -35,7 +47,7 @@
   .item2 {
     height: 200px;
     width: 400px;
-    background-color: rgb(214 162 173 / 70%);
+    background-color: rgba(174, 15, 50, 0.7);
     border: 5px solid rgb(214 162 173 / 100%);
     border-radius: 8px;
     grid-column: 2 / 5;
@@ -45,14 +57,14 @@
   .grid {
     height: 500px;
     width: 50%;
-    background-color: rgba(10, 8, 9, 0.7);
+    background-color: rgba(182, 172, 177, 0.7);
+    border: 2px solid black;
     margin: 3rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px;
     gap: 10px;
-    justify-content: center; /* Align horizontally */
-    align-items: center;
+   
   }
 
   
