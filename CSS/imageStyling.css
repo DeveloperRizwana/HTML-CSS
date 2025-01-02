@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 4rem;
+    }
+.tags {
+    
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    list-style: none;
+  } 
+  .card {
+    display: grid;
+    grid-template-rows: 200px min-content;
+  }
+.card, .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+li {
+    height: 50px;
+    width: 90px;
+    color: beige;
+    padding: 0.2em 0.8em;
+    background-color: rgb(126, 120, 120);
+    border: 1px solid wheat;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
