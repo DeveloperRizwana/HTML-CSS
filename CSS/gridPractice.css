@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 500px;
+    width: 600px;
+    display: grid;
+    gap: 10px;
+    margin: 4rem;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(7,1fr);
+
+}
+.box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid orangered;
+    color: orangered;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header, .footer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.sidebar {
+
+    grid-row-start: 2;
+    grid-row-end: 8;
+}
