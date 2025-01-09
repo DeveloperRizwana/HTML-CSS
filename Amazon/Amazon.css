@@ -32,7 +32,8 @@
 }
 
 .border:hover{
-    border: 1.5px solid white;
+    /* border: 1.5px solid white; */
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
 }
 
 /** box2 **/
@@ -205,13 +206,18 @@ footer {
 
 .foot-panel1 {
     background-color: #37475a;
-    color: white;
     height: 50px;
     font-size: 0.85rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+#foot-panel1 {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
 
 .foot-panel2 {
     background-color: #222f3d;
