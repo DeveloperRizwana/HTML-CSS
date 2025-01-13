@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="contactForm.css">
+  <style>
+    .attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+  <h2 >Contact Us</h2>
+    <div class="form-container" >
+      <div>
+        <p>First Name :</p>
+        <input type="text" id="fName" >
+      </div>
+      <div>
+        <p>Last Name :</p>
+        <input type="text" id="lName" > 
+      </div>
+    </div>
+    
+  <div id="email">
+    <label for="email">Email Address :</label>
+    <br>
+    <input type="text" id="email" >
+  </div>
+
+   <!-- Query Type -->
+   <div id="query">
+    <label>Query Type :</label>
+    <div>
+      <input type="radio" id="general-enquiry" name="query_type" value="general">
+      <label for="general-enquiry">General Enquiry</label>
+    </div>
+    <div>
+      <input type="radio" id="support-request" name="query_type" value="support">
+      <label for="support-request">Support Request</label>
+    </div>
+  </div>
+
+  <div id="Message">
+    <label for="qtpye">Message :</label>
+    <br>
+    <!-- <br> -->
+    <textarea name="textarea" id="textarea"></textarea>
+    <br>
+
+    <input type="checkbox" name="checkbox" id="checkbox">
+    <label for="checkbox">I consent to being contacted by the team</label>
+    <br>
+
+    <button>Submit</button>
+
+  </div>
+
+  <footer class="attribution">
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge">
+      Frontend Mentor
+    </a>
+    Coded by 
+    <a href="#">
+      Rizwana Perween
+    </a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(104, 150, 104);
+}
+h2 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 0.5rem;
+  width: 60%;
+  background-color: white;
+}
+.form-container {
+  display: flex;
+  height: 25px;
+  border-radius: 5px;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+#email {
+  padding-left: 1rem;
+  width: 98%;
+  height: 25px;
+}
+
+#query {
+  margin-top: 2rem; 
+  padding-left: 1rem;
+  gap: 2rem;
+}
+
+#general-enquiry, #support-request {
+  margin-top: 0.5rem;
+}
+
+#Message {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+#textarea {
+  margin-top: 0.5rem;
+  width: 98%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#checkbox {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+button {
+  width: 98%;
+  height: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(18, 96, 73);
+  margin-top: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #53ab8c;
+}
+
+footer {
+  align-items: flex-end;
+  margin-top: 1rem;
+}
+
+
