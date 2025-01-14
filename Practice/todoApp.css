@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    height: 100%;
+    color: white;
+    background-color: #070A1F;
+}
+
+#home {
+    background-color: #4539CA;
+}
+
+.container2 {
+    background-color: #172554;
+}
+
+#complete {
+    background-color: #495472;
+}
+
+.todo {
+    color: white;
+}
