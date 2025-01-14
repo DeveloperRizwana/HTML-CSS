@@ -13,20 +13,30 @@ body {
 }
 h1 {
     margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     height: 500px;
     width: 35%;
     margin: 4rem;
+    padding-left: 3rem;
+    border-radius: 10px;
     background-color: white;
 }
 
 #edit {
-    padding-left: 4rem;
+    margin-bottom: 1.5rem;
 }
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
 #box {
     display: flex;
     align-items: center;
@@ -38,23 +48,16 @@ h1 {
     border-bottom: 2px solid rgb(113, 111, 111);
 }
 
-#label {
-    padding-bottom: 2rem;
-}
-#icon {
+#icon1 {
     margin-right: 10px;
     color: #aaa;
+    font-size: 1.2rem;
 }
- #username {
+ 
+#username, #password {
+    border: none;
     height: 30px;
-    border: none;
-    outline: none;
- }
-
- #password {
-    border: none;
-    outline: none;
- }
+}
 
  button {
     height: 2rem;
@@ -65,12 +68,46 @@ h1 {
     background: linear-gradient(69deg, rgba(34,193,195,1) 0%, rgba(170,88,128,1) 50%, rgb(109, 18, 145) 100%);
     
  }
- #signup{
-   height: 100px;
-   margin: 3rem;
-   padding: ;
+
+ p {
+    text-align: end;
+    padding-right: 5rem;
+    font-size: 0.9rem;
+    margin: 1rem;
+}
+
+ #p{
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
 
- .signup {
-    align-items: flex-end;
+ #icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3.5rem;
+    margin-bottom: 3.5rem;
  }
+
+ #icon2 {
+    color: rgb(34, 34, 110);
+    font-size: 2rem;
+    padding-right: 1rem;
+
+ }
+
+ #icon3 {
+    color: rgb(94, 178, 212);
+    font-size: 2rem;
+    padding-right: 1rem;
+ }
+
+ #icon4 {
+    color: orangered;
+    font-size: 2rem;
+    padding-right: 1rem;
+ }
+
+ 
