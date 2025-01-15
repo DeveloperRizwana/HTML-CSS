@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="todoApp.css">
-</head>
-<body>
-    
-    <div class="container1">
-        <p>Hi User 👋</p>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="todoApp.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container1">
+        <h2>Hi User 👋</h2>
         <div>
-            <p id="home">Home</p>
+            <div class="page-btn">
+                <p id="home">Home</p>
+              </div>
+              <div class="page-btn">
+                <p id="complete1">Completed</p>
+              </div>
+              <div class="page-btn">
+                <p id="incomplete">Incompleted</p>
+              </div>
+            </div>
         </div>
 
-        <div>
-            <p>Completed</p>
-        </div>
-
-        <div>
-            <p>Incompleted</p>
-        </div>
-    </div>
-
-    <div class="container2">
+      <div class="container2">
         <div class="todo">
-            <img src="circle-check-big.png" alt="image" >
-            <p>Todo</p>
-            <p>Plan it, do it</p>
-            <input type="text" id="box" placeholder="What do you want to do">
+          <img src="circle-check-big (1).png" alt="image" />
+          <p id="">Todo</p>
+          <p>Plan it, do it</p>
+          <input type="text" id="box" placeholder="What do you want to do" />
         </div>
 
         <div class="box1">
-            <p> Try adding some todos, just start typing</p>
-            <img src="circle.png" alt="circle">
+          <p>Try adding some todos, just start typing</p>
+          <img src="circle.png" alt="circle" />
         </div>
 
         <div class="box1">
-            <p id="complete">You can edit, delete or mark complete</p>
-            <img src="circle-check-big.png" alt="circle">
+          <p id="complete">You can edit, delete or mark complete</p>
+          <img src="circle-check-big.png" alt="circle" />
         </div>
 
         <div class="box1">
-            <p>This is just a new todo</p>
-            <img src="circle.png" alt="circle">
+          <p>This is just a new todo</p>
+          <img src="circle.png" alt="circle" />
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
