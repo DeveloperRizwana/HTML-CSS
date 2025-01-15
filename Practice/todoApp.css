@@ -37,6 +37,10 @@ h2 {
   border-left: 1px solid #4539ca;
 }
 
+.page-btn:hover {
+  border: 2px solid #4539ca;
+  box-shadow: 0 5px 8px rgba(69, 57, 202, 0.5);
+}
 #home {
   background-color: #4539ca;
   border-radius: 5px;
