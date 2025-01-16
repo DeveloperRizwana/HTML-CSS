@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.6;
 }
 
 .main-container {
@@ -20,8 +21,9 @@
 
 h2 {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: 2rem;
+  margin-bottom: 4rem;
 }
 
 .page-btn {
@@ -31,7 +33,6 @@ h2 {
   height: 2rem;
   width: 14rem;
   border-radius: 5px;
-  /* background-color: yellow; */
   margin-bottom: 1rem;
   border-bottom: 1px solid #4539ca;
   border-left: 1px solid #4539ca;
@@ -44,34 +45,60 @@ h2 {
 #home {
   background-color: #4539ca;
   border-radius: 5px;
+  padding-top: 0.1rem;
+  padding-left: 0.6rem;
   width: 100%;
   height: 100%;
 }
 
-#complete1 {
-  /* background-color: red; */
-  /* text-align: center; */ 
+#complete1, #incomplete {
   padding-left: 0.6rem;
-}
-
-#incomplete {
-    padding-left: 0.6rem;
 }
 
 .container2 {
   background-color: #172554;
   width: 80%;
+  padding: 2rem;
 }
 
-#complete {
-  background-color: #495472;
+#input {
+  background-color: #fff;
+  display: flex;
+  height: 2.5rem;
+  width: 35rem;
+  border-radius: 13px;
+  margin-top: 0.9rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#complete1, #complete2, #complete3 {
+  padding-left: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+#img-input {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .todo {
   color: white;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  
 }
 
-h3 {
-    height: 3rem;
+#todo-input{
+  height: 2.5rem;
+  width: 40rem;
+  margin-bottom: 2rem;
+  border-radius: 13px;
+  padding-left: 0.6rem;
+  border: none;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
