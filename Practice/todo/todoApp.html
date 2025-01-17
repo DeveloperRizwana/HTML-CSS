@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="todoApp.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container1">
+        <h2>Hi User 👋</h2>
+        <div>
+          <div class="page-btn">
+            <p id="home">Home</p>
+          </div>
+          <div class="page-btn">
+            <p id="complete1">Completed</p>
+          </div>
+          <div class="page-btn">
+            <p id="incomplete">Incompleted</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div id="todo-header">
+            <img id="logo" src="./src/logo.svg" alt="todo-logo" />
+          <div>
+            <h1 id="todo-heading">Todo</h1>
+            <p>Plan it, do it</p>
+          </div>
+        </div>
+
+        <div class="box1">
+          <div>
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="What do you want to do"
+            />
+          </div>
+          <div class="input">
+            <p class="text">Try adding some todos, just start typing</p>
+            <img src="./src/circle.svg" alt="circle" class="img-input" />
+          </div>
+
+          <div class="input complete ">
+            <p class="text">You can edit, delete or mark complete</p>
+            <img src="./src/tick-circle.svg" alt="circle" class="img-input" />
+          </div>
+
+          <div class="input">
+            <p class=" text">This is just a new todo</p>
+            <img src="./src/circle.svg" alt="circle" class="img-input" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
