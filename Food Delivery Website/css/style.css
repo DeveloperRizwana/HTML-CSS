@@ -1,0 +1,99 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Navigation bar : Logo and Image */
+#navbar {
+    position: relative;
+}
+
+#logo {
+   margin: 10px 34px;
+}
+
+#logo img{
+    height: 56px;
+    margin: 4px 6px;
+ }
+
+/* Navigation bar : List Styling */
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px; /* 3px -> for bottom and top , 22px -> for left and right */
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(/img/bg.jpg) no-repeat center center/cover;
+    opacity: 0.85;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#home h1 {
+    color: black;
+    opacity: 0.8;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+}
+
+#home p {
+    color: black;
+    opacity: 0.8;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-size: 1.4rem;
+}
+
+/* Utility Classes */
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    
+}
