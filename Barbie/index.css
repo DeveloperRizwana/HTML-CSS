@@ -1,32 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Arial sans-serif;
+}
+
+body {
+  background-color: rgb(242, 139, 157);
 }
 
 .navbar {
-  height: 70px;
+  height: 90px;
   background-color: rgb(225, 25, 91);
   color: white;
   padding: 0 4rem;
+  border-bottom: 5px solid #f3dee5;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  top: 0;
-  z-index: 1000;
 }
+
 #logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #logo img {
-  height: 50px;
-  width: 70px;
+  height: 70px;
+  width: 80px;
   border-radius: 7px;
-  /* margin-left: 4rem; */
 }
 
 #logo img:hover {
@@ -41,8 +46,7 @@
 
 .navbar ul li {
   list-style: none;
-  font-size: 1.3rem;
-  margin: 0 15px;
+  font-size: 1.6rem;
 }
 
 .navbar ul li a {
@@ -62,19 +66,17 @@
 }
 
 .search-bar {
-    width: 45%;
+  width: 45%;
 }
 
 .search-bar input {
   height: 40px;
   width: 100%;
   border: 2px solid #f8bbd0;
-  /* border: none; */
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin: 0 15px;
   border-radius: 20px;
   padding-left: 1rem;
-  /* margin-right: 8rem; */
 }
 
 .search-bar input:hover {
@@ -83,7 +85,44 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.hero-section {
-    height: 300px;
-    width: 100%;
+#hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  text-align: center;
+}
+
+#hero-section::before {
+  content: "";
+  background: url(/image/heroPic.jpg) no-repeat center center/cover;
+  opacity: 0.65;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 550px;
+  width: 100%;
+  z-index: -1;
+}
+
+#hero-section h1 {
+  font-family: "Dancing Script", serif;
+  color: rgb(96, 15, 42);
+  border-radius: 3rem;
+  font-size: 4rem;
+  margin: 0;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid rgb(121, 14, 50);
+  border-left: 4px solid rgb(121, 14, 50);
+}
+
+.gradient-text:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+  background-color: white;
+}
+
+.glow-text {
+  text-shadow: 0 0 5px #e91e63, 0 0 10px #840932, 0 0 15px #c392a2;
 }
